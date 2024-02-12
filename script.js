@@ -390,13 +390,14 @@ function twoColumnFun(){
   }
 
   function ReverseTwoColumn() {
+   
     let box1 = document.querySelector(".box1");
     box1.style.flexDirection = "row-reverse";
     box1.style.display="flex"
     let box1head=document.querySelector(".box1-head");
     box1head.style.width="35%"
     box1head.style.flexDirection="column"
-    box1head.style.justifyContent="space-between"
+    box1head.style.justifyContent="normal"
     let  main1=document.querySelector(".main1");
     main1.style.width="calc(100% - 35%)";
     
